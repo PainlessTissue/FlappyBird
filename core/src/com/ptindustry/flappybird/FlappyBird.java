@@ -21,7 +21,8 @@ public class FlappyBird extends ApplicationAdapter {
 		birds[0] = new Texture("bird.png");
 		birds[1] = new Texture("bird2.png");
 
-		//simple change
+
+		//another simple change
 	}
 
 	@Override
