@@ -7,11 +7,11 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class FlappyBird extends ApplicationAdapter {
-	SpriteBatch batch;
-	Texture background;
+	private SpriteBatch batch;
+	private Texture background;
 
-	Texture birds[];
-	int flapState;
+	private Texture birds[];
+	private int flapState;
 
 	@Override
 	public void create () {
@@ -20,6 +20,8 @@ public class FlappyBird extends ApplicationAdapter {
 		birds = new Texture[2];
 		birds[0] = new Texture("bird.png");
 		birds[1] = new Texture("bird2.png");
+
+		//simple change
 	}
 
 	@Override
